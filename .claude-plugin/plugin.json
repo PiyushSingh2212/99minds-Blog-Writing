@@ -1,0 +1,18 @@
+{
+  "name": "99minds-blog-writing",
+  "description": "AI-powered blog skill suite for 99minds - loyalty and rewards content creation, SEO optimization, brand writing, and content management. 15 sub-skills and 4 agents.",
+  "version": "1.0.0",
+  "author": {
+    "name": "PiyushSingh2212",
+    "url": "https://github.com/PiyushSingh2212"
+  },
+  "homepage": "https://github.com/PiyushSingh2212/99minds-Blog-Writing",
+  "repository": "https://github.com/PiyushSingh2212/99minds-Blog-Writing",
+  "license": "MIT",
+  "keywords": [
+    "99minds", "loyalty", "rewards", "blog", "seo", "content",
+    "writing", "ai-content", "brand", "content-creation",
+    "blog-writing", "markdown", "mdx", "wordpress",
+    "eeat", "google-rankings", "ai-citations"
+  ]
+}
