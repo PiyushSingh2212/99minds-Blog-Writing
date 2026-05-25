@@ -65,7 +65,7 @@ Auto-select based on topic type:
 **Title**: Title Case · 60 chars max · primary keyword included
 **H2**: Title Case · secondary keyword where natural
 **H3 and below**: Sentence case
-**Voice**: Conversational · jargon-free · fun · address reader as "you"
+**Voice**: Conversational · jargon-free · address reader as "you"
 **Contractions**: Always use (it's, we're, you'll, don't)
 **Avoid**: "utilize" (use "use") · advertising jargon · robotic phrases
 **Oxford commas**: Required
@@ -89,13 +89,41 @@ Minimum 10 internal links per article:
 
 ```markdown
 ---
-title: "[60 char max SEO title with primary keyword]"
-meta_description: "[160 char max with primary keyword]"
-slug: "[from brief]"
-author: "[provided at creation time]"
-date: "YYYY-MM-DD"
-tags: [tag1, tag2]
----
+pubDate: YYYY-MM-DD
+author: x
+authorImg: "x.webp"
+title: ""
+description: ""
+image:
+  url: "/assets/blog/image.webp"
+  alt: "xyx"
+tags: ["tagq", "tag2"]
+url: "https://www.99minds.io/blog/loyalty-program-apps"
+keywords: ["Keyword"]
+--- 
+<div class="lg:flex lg:gap-6">
+  <div class="lg:w-[250px] lg:sticky top-40 self-start shrink-0 p-[0.060rem] lg:mt-2 h-full text-black pb-4 overflow-y-auto max-h-[80vh]">
+    <p class="text-black font-semibold text-nowrap pl-0">Table of Contents:</p>
+<ul class="pl-0 text-base list-none">
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#What-is-a-Loyalty-Program-App?" rel="noreferrer">What is a Loyalty Program App?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+<a rolw="link" href="#Why-eCommerce-Merchants-Need-Loyalty-Apps?" rel="noreferrer">Why eCommerce Merchants Need Loyalty Apps?</a>
+</li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#what-is-x" rel="noreferrer">What is x?</a>
+  </li>
+  <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Conclusion" rel="noreferrer">Conclusion</a>
+  </li>
+ <li class="hover:bg-gray-100 lg:mt-4">
+  <a role="link" href="#Frequently-Ask-Questions-(FAQs)-on-Loyalty-Program-Apps"rel="noreferrer">Frequently Ask Questions (FAQs) on keyword</a></li>
+</ul>
+</div>
+
+<div class="w-full">
+<img src="/assets/blog/image.webp" alt="x"> 
 
 # [H1 Title]
 
@@ -105,12 +133,12 @@ tags: [tag1, tag2]
 
 [Content...]
 
+## Conclusion
+
 ## FAQ
 
 **Q: [Question?]**
 A: [Answer]
-
-## Conclusion
 
 [Summary + 99minds recommendation + CTA]
 ```
