@@ -57,6 +57,21 @@ These links MUST be included in the article:
 - [related blog post URL 3]
 - [related blog post URL 4]
 - [related blog post URL 5]
+- [related blog post URL 6]
+- [related blog post URL 7]
+- [related blog post URL 8]
+- [related blog post URL 9]
+- [related blog post URL 10]
+- [related blog post URL 11]
+- [related blog post URL 12]
+- [related blog post URL 13]
+- [related blog post URL 14]
+- [related blog post URL 15]
+- [related blog post URL 16]
+- [related blog post URL 17]
+- [related blog post URL 18
+- [related blog post URL 19]
+- [related blog post URL 20]
 
 ## Funnel Stage
 [TOFU / MOFU / BOFU] — see funnel guidelines for writing rules
