@@ -79,6 +79,31 @@ Every H2 must state its main point in the first sentence. Do not bury the answer
 - ✅ "Points-based programs are the most effective structure for high-frequency, low-ticket businesses."
 - ❌ "There are many ways to think about loyalty programs. Let's explore a few options..."
 
+#### GenAI-Friendly Writing Rules (Required)
+These rules ensure the post is correctly retrieved and cited by AI systems (ChatGPT, Perplexity, AI Overviews, Claude). See `genai-content-guidelines.md` for full detail.
+
+**Sentence length**: Keep sentences under 20 words. Split anything longer into two sentences.
+
+**One idea per paragraph**: Each paragraph covers exactly one concept. AI summarizes paragraph by paragraph — bundled paragraphs produce blended, inaccurate citations.
+
+**Section length cap**: Keep each H2 section under ~375 words. Split longer sections into two H2s or use H3 sub-sections.
+
+**Self-contained list items**: Every bullet must function as a standalone statement without relying on surrounding text for meaning. Never start a bullet with "it", "this", or "the above".
+- ✅ "Set a maximum per-customer usage limit of one to prevent code-stacking."
+- ❌ "Set it to one."
+
+**Anchor text**: Must describe the destination article's topic. Never use "click here", "learn more", or "this article".
+- ✅ `how to build a loyalty program for small businesses`
+- ❌ `learn more`
+
+**No duplicate H2 headings**: Every H2 in the article must be unique.
+
+**Heading format**: All H2 headings use raw HTML with explicit IDs - `<h2 id="Heading-Text">Heading Text</h2>`. Never use `## Heading {#id}` Markdown syntax — this blog does not support it.
+
+**FAQ answers**: Must be fully self-contained, 2-5 sentences, no internal links. AI extracts FAQ answers verbatim as direct responses to user queries — they must make complete sense without any surrounding context. Restate key terms from the question inside the answer.
+- ✅ "A promotional code is an alphanumeric string customers enter at checkout to receive a discount. Unlike automatic discounts, it requires active entry, giving merchants control over who receives the offer."
+- ❌ "Yes, they work. See the section above."
+
 #### Stats and Sources (MANDATORY)
 - **Only use stats from reputable research organizations**: Statista, Deloitte, McKinsey, Accenture, Bain & Company, Harvard Business Review, Nielsen, Forrester Research, Pew Research Center, World Bank, PwC, Gartner, eMarketer, Edelman
 - **Never use stats from competitor platforms** (Square, Shopify, Yotpo, Smile.io, etc.) as research sources
@@ -174,19 +199,19 @@ keywords: ["Keyword"]
 
 [Intro — answer-first, lead with verified stat + source link, max 200 words]
 
-## TL;DR
+<h2 id="tldr">TL;DR</h2>
 
-- [Bullet 1 — key stat with source]
-- [Bullet 2 — main program types or steps]
-- [Bullet 3 — free/cost info]
-- [Bullet 4 — framework or process]
-- [Bullet 5 — biggest mistakes or takeaway]
+- [Bullet 1 — key stat with source, self-contained]
+- [Bullet 2 — main program types or steps, self-contained]
+- [Bullet 3 — free/cost info, self-contained]
+- [Bullet 4 — framework or process, self-contained]
+- [Bullet 5 — biggest mistakes or takeaway, self-contained]
 
-## [H2 Section]
+<h2 id="[Section-Slug]">[H2 Section Title]</h2>
 
-[Content — every H2 opens with the main point stated directly]
+[Content — first sentence states the main point. Each paragraph = one idea. Sentences under 20 words. Section under 375 words.]
 
-## Conclusion
+<h2 id="Conclusion">Conclusion</h2>
 
 [Summary + 99minds recommendation + CTA]
 
@@ -198,14 +223,14 @@ keywords: ["Keyword"]
   </div>
 </div>
 
-## Frequently Asked Questions {#Frequently-Asked-Questions-on-[topic]}
+<h2 id="Frequently-Asked-Questions-on-[topic]">Frequently Asked Questions on [Topic]</h2>
 
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 1?]</h3>[Answer — 2-4 sentences, self-contained, citable]</div>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 2?]</h3>[Answer]</div>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 3?]</h3>[Answer]</div>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 4?]</h3>[Answer]</div>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 5?]</h3>[Answer]</div>
-<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 6?]</h3>[Answer]</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 1?]</h3>[Answer — 2-5 sentences, fully self-contained, no internal links, restates key terms from the question]</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 2?]</h3>[Answer — self-contained, no links]</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 3?]</h3>[Answer — self-contained, no links]</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 4?]</h3>[Answer — self-contained, no links]</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 5?]</h3>[Answer — self-contained, no links]</div>
+<div class="border border-vulcan-800 rounded-xl mt-6 px-8 pb-6"><h3>[Question 6?]</h3>[Answer — self-contained, no links]</div>
 
 </div>
 <!-- CTA sidebar -->
@@ -261,6 +286,8 @@ Every blog post must include ALL of the following before submission:
 - Author bio: `<div class="border-t border-gray-200 mt-10 pt-6 flex items-start gap-4">`
 
 ## Quality Targets
+
+**Content:**
 - Word count: match brief exactly (target 30% above SERP average for comprehensive coverage)
 - Reading level: accessible, e-commerce industry terms OK
 - Minimum 20 internal links
@@ -270,3 +297,16 @@ Every blog post must include ALL of the following before submission:
 - Zero em dashes
 - All images show dashboard (not homepage)
 - Funnel-level rules followed exactly
+
+**GenAI Checklist (run before finalizing):**
+- [ ] Every sentence is under 20 words
+- [ ] Every paragraph contains exactly one idea
+- [ ] Every H2 section is under 375 words
+- [ ] Every bullet point is self-contained (no "it", "this", "the above")
+- [ ] Every FAQ answer is self-contained, 2-5 sentences, zero internal links
+- [ ] Every H2 opens with the answer in the first sentence
+- [ ] All anchor text describes the destination article's specific topic
+- [ ] All image alt text is functional and descriptive (not just "screenshot" or "dashboard")
+- [ ] No duplicate H2 headings in the article
+- [ ] All H2s use `<h2 id="...">` HTML format — not `## Heading {#id}` Markdown
+- [ ] Primary keyword in H1, first paragraph, and meta description
