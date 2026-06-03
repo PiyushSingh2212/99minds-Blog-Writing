@@ -165,6 +165,26 @@ Reader: Problem-aware, solution-aware, method-aware — ready to pick a product.
 - ❌ Never use Shopify store listing page screenshots
 - ❌ Never use marketing/promotional page screenshots
 
+### Table Style
+Always use HTML tables with inline styles — never Markdown pipe tables. Match this exact format:
+
+```html
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #d1d5db; padding: 10px; text-align: left;">Column 1</th>
+      <th style="border: 1px solid #d1d5db; padding: 10px; text-align: left;">Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">Value</td>
+      <td style="border: 1px solid #d1d5db; padding: 10px;">Value</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ### Graphics
 - For processes/flows: use graphics or flowcharts
 - Simple MS Word flowcharts are acceptable — paste on 99minds watermark template first
