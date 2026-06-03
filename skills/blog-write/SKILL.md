@@ -38,41 +38,59 @@ Check the brief or keyword intent to determine TOFU / MOFU / BOFU:
 Auto-select based on topic type:
 
 **Listicle Format** (e.g., "Top 10 Best [KEYWORD] Tools"):
-- Intro: <150 words
-- H2: TL;DR — Top 10 Best [KEYWORD] At a Glance (table of all products)
-- H2: What Should You Look for in [KEYWORD]? (<200 words)
-- H2: The 10 Best [KEYWORD] Tools
-  - H3: 1. 99minds
-    - Intro: relevant 99minds features for this topic — consult the Feature-to-Blog-Topic Mapping in `99minds-context.md` to identify the exact dashboard features to describe
-    - H4: 99minds best features (bullet list — most relevant only, use specific dashboard feature names e.g., "Workflows", "VIP Tiers", "Cart Item Filters")
-    - H4: 99minds limitations (1-2 from real reviews, not harsh)
-    - H4: 99minds pricing: Basic $49/mo · Pro $99/mo · Ultra $199/mo · Premium $499/mo · Enterprise: contact
-    - H4: 99minds ratings and reviews (Shopify + G2 reviews in bullets)
-  - H3: 2. [Next tool] — same H4 format
+- Intro: under 150 words
+- H2: TL;DR: Top 10 Best [KEYWORD] At a Glance — table of all products with a one-line conclusion per tool
+- H2: What Should You Look for in [KEYWORD]? (under 200 words)
+- H2: The 10 Best [KEYWORD] to Use in [Year]
+  - H3: 1. [99minds as a linked heading] — **link the H3 heading text itself to https://www.99minds.io** e.g. `<h3><a href="https://www.99minds.io" role="link" target="_blank">1. 99minds</a></h3>`
+    - Intro paragraph: describe relevant 99minds features for this topic — consult `99minds-context.md` Feature-to-Blog-Topic Mapping. Use real dashboard feature names (e.g., "Workflows", "VIP Tiers", "Cart Item Filters")
+    - H4: 99minds best features — **go straight into bullets, no intro sentence**
+      - (bullet list of most relevant features only)
+    - H4: 99minds limitations — **go straight into bullets, no intro sentence**. Tone limitations down: never say a tool is "expensive" or has "poor support" — say "some users may find the pricing higher compared to other options" or "response times may vary during peak periods"
+      - (1-2 real limitations from reviews, toned down)
+    - H4: 99minds pricing — **go straight into bullets, no intro sentence**. All prices in USD.
+      - Basic: $49/month
+      - Pro: $99/month
+      - Ultra: $199/month
+      - Premium: $499/month
+      - Enterprise: Contact for pricing
+    - H4: 99minds ratings and reviews — **go straight into bullets, no intro sentence**
+      - Shopify: 5/5 (30+ reviews)
+      - G2: 5/5 (5 reviews)
+  - H3: 2. [Next tool] — same H4 format, same limitation tone rules, same no-intro-to-H4 rule
   - H3: 3–10. Repeat
+- Conclusion at the end of the article (outro)
+- **Never name 99minds competitors** (see Competitor Prohibition below)
 
 **How-to/Guide Format** (e.g., "How to Build a Loyalty Program"):
-- Intro: <200 words · answer-first · lead with the key stat from a reputable source
-- H2: TL;DR (required) — 5-7 bullet points summarizing the full post
-- H2: What is [primary keyword]? Or Why does [primary keyword] matter?
-- H2: How to [primary keyword] — step-by-step process
-- H2: 99minds + [primary keyword] — show use cases and features. **Before writing this section**: consult the Feature-to-Blog-Topic Mapping in `99minds-context.md` to identify which specific 99minds features to highlight, and use real dashboard feature names (e.g., "Workflows", "VIP Tiers", "Cart Item Filters"). Describe the feature as it works in the actual 99minds dashboard — specific actions, form fields, and workflow templates where relevant.
+- Intro: under 150 words · answer-first · lead with a verified stat from a reputable source
+- H2: TL;DR: 60-Second Summary — 5-7 self-contained bullet points summarizing the full post
+- H2: What Is [primary keyword]? or Why Do You Need [primary keyword]?
+- H2: How to [primary keyword]: Step-by-Step Process
+- H2: [99minds + primary keyword] — show use cases and features. **Before writing**: consult `99minds-context.md` Feature-to-Blog-Topic Mapping to identify the right features. Use real dashboard feature names and describe actual workflows and form fields.
 - Any other relevant H2s based on content gap analysis
-- H2: Conclusion — summary + 99minds recommendation + CTA
-- H2: Frequently Asked Questions — minimum 6 questions answering PAA queries from SERP
+- H2: Conclusion With [99minds] — **the conclusion H2 heading must include "99minds"** e.g. "Getting Started With 99minds" or "How 99minds Helps You [Topic]". Summary + recommendation + CTA.
+- H2: Frequently Asked Questions on [Topic] — minimum 6 questions from PAA/Quora/Reddit
 
 ### Step 4 — Write the Blog
 
-**Title**: Title Case · 60 chars max · primary keyword included
-**H2**: Title Case · secondary keyword where natural
-**H3 and below**: Sentence case
-**Voice**: Conversational · jargon-free · address reader as "you"
-**Contractions**: Always use (it's, we're, you'll, don't)
-**Avoid**: "utilize" (use "use") · advertising jargon · robotic phrases · cliche openers ("game-changer", "let's dive in", "golden word", "in today's world", "it's worth noting")
-**Oxford commas**: Required
-**Em dashes**: NEVER use em dashes (—). Use commas, colons, semicolons, or hyphens (-) instead.
-**Numbers**: Spell out 1-9, numeral for 10+
-**Emojis**: Allowed — always add punctuation before them! No back-to-back.
+**Title / H1 / H2**: Title Case · H1/meta title 60 chars max · primary keyword included
+**H3, H4, H5, H6**: Sentence case only (proper nouns are the only exception)
+**Voice**: Conversational, fun, easy to understand · address reader as "you" · use "we"/"I" for 99minds
+**Contractions**: Always use (it's, we're, you'll, don't, I'm)
+**Avoid**: "utilize" (use "use") · advertising jargon · robotic phrases · cliche openers ("game-changer", "let's dive in", "in today's world", "it's worth noting", "needless to say", "at the end of the day", "leveraging X", "the answer lies in")
+**Oxford commas**: Required for lists of three or more items
+**Em dashes**: NEVER use em dashes (—). Replace with a comma, colon, or semicolon.
+**Bullet / list points**: No full stops (periods) at the end of bullet points or list items. If a bullet has multiple sentences, end the final sentence without a period.
+**Numbers**: Spell out one through nine; use numerals for 10 and above
+  - Exception: headers and meta descriptions always use numerals (e.g., "7 Types of..." not "Seven Types of...")
+  - Exception: write 1-9 numerically when they appear before "million" or "billion" (e.g., "3 million customers")
+**Emojis**: Always add punctuation before an emoji! Never use two emojis back-to-back.
+  - Go-to: 📚 😀 😃 🤩 🙌 ✨ 🌻 🛠️ 👀 👏 🚀
+  - Restricted (do not use): 👍 👌 😂 💔 😕 😔 😢 😭
+**Italics**: Use for emphasis on key words and terms - matches the conversational 99minds tone
+**Prices**: All prices in USD. Use other currencies only if USD is not supported.
+**Competitor cons**: Never say a tool is "expensive" or "has poor support". Say "some users may find the pricing higher compared to other options" or "response times may vary during peak periods".
 
 #### Answer-First Formatting (Required)
 Every H2 must state its main point in the first sentence. Do not bury the answer. Example:
@@ -150,6 +168,7 @@ Use **dashboard screenshots** from the 99minds Google Drive library — NOT home
    - Hero image uses `rel="preload"` instead of `loading="lazy"`
    - Alt text must be descriptive and include the primary keyword where natural
    - For full-width dashboard shots add `class="w-full h-auto"`
+   - **Image source goes in the caption text, NOT as a hyperlink on the image itself**. If the image needs attribution, add a text caption below it.
 
 5. **If you need a screenshot not in the library** — search the Drive folder directly:
    - Root folder ID: `1em-Y3coPYHDbd0jNq09Y2I5QrtAGysHU`
@@ -271,12 +290,15 @@ keywords: ["Keyword"]
 
 Every blog post must include ALL of the following before submission:
 
-1. **TL;DR section** — immediately after intro, 5-7 bullets summarizing the full post
-2. **Minimum 6 FAQ questions** — heading must read "Frequently Asked Questions" (never "Frequently Ask Questions")
-3. **Author bio block** — after the last FAQ, before the sidebar CTA. Include author photo, name, and 2-3 sentence expertise description
-4. **JSON-LD schema** — Article schema + FAQPage schema (one `<script type="application/ld+json">` block at end of file covering both)
-5. **Source links on all stats** — every percentage, dollar figure, or research claim must be wrapped in an anchor tag pointing to the original source
+1. **TL;DR section** — immediately after intro, 5-7 self-contained bullets summarizing the full post
+2. **Minimum 6 FAQ questions** — heading must read "Frequently Asked Questions on [Topic]" (never "Frequently Ask Questions"). FAQs sourced from PAA, AnswerThePublic, Quora, or Reddit
+3. **Author bio block** — placed AFTER the last FAQ, BEFORE the CTA sidebar. Include author photo, name, and 2-3 sentence expertise description
+4. **JSON-LD schema** — Article schema + FAQPage schema in a single `<script type="application/ld+json">` block at end of file. Publisher logo must use: `https://www.99minds.io/logos/99minds-logo-b.svg`
+5. **Source links on all stats** — every percentage, dollar figure, or research claim wrapped in an `<a>` tag pointing to the original source
 6. **Table of Contents** — sticky sidebar with links to all H2 sections including TL;DR and FAQ
+7. **Meta title** — 60 chars max, primary keyword included, always use numerals in the title (e.g., "7 Best..." not "Seven Best...")
+8. **Meta description** — 160 chars max, primary keyword included, reads as a direct answer to the implied search query
+9. **Conclusion / outro** — every article ends with a conclusion section. How-to posts: the conclusion H2 must include "99minds" in the heading
 
 ### Step 8 — HTML Output Rules
 - All links: `role="link" target="_blank"` — never `target="_blanck"` (common typo)
@@ -290,23 +312,73 @@ Every blog post must include ALL of the following before submission:
 **Content:**
 - Word count: match brief exactly (target 30% above SERP average for comprehensive coverage)
 - Reading level: accessible, e-commerce industry terms OK
-- Minimum 20 internal links
 - All stats from Statista, Deloitte, McKinsey, Accenture, Bain, HBR, Nielsen, Forrester, Pew, or similar
 - All stats have source links
 - Zero competitor names in post
 - Zero em dashes
+- Zero periods at end of bullet/list items
 - All images show dashboard (not homepage)
+- All prices in USD
 - Funnel-level rules followed exactly
 
-**GenAI Checklist (run before finalizing):**
+**Submission Checklist (run before finalizing):**
+
+Structure:
+- [ ] Intro is under 150 words
+- [ ] TL;DR section present immediately after intro
+- [ ] Author bio block present AFTER the last FAQ, BEFORE the CTA sidebar
+- [ ] FAQ heading reads "Frequently Asked Questions on [Topic]"
+- [ ] Minimum 6 FAQ questions
+- [ ] Table of Contents includes TL;DR and FAQ entries
+- [ ] Conclusion present; how-to conclusion H2 includes "99minds" in heading
+- [ ] Listicle: H3 heading for 99minds is a hyperlink to https://www.99minds.io
+- [ ] Listicle: No intro sentences before H4 pros/cons/pricing/ratings — go straight to bullets
+
+Content:
+- [ ] Zero em dashes
+- [ ] Zero competitor names
+- [ ] No banned cliche phrases ("game-changer", "let's dive in", "in today's world", etc.)
+- [ ] Every H2 opens with the main point in the first sentence
+- [ ] Oxford commas used throughout
+- [ ] No periods at end of bullets or list items
+- [ ] Numbers: headers always use numerals; 1-9 spelled out in body except before million/billion
+- [ ] All prices in USD
+- [ ] Competitor limitations toned down (no "expensive", no "poor support" — use softened language)
+
+Images:
+- [ ] Alt text on all images — functional and descriptive
+- [ ] Hero image has `rel="preload"` and `role="img"`
+- [ ] All non-hero images have `loading="lazy"` and `role="img"`
+- [ ] All images are dashboard screenshots (not homepage)
+- [ ] Image source in caption text, NOT linked from the image itself
+
+Stats and Sources:
+- [ ] Every stat has a linked source anchor tag
+- [ ] All sources from approved list (Deloitte, McKinsey, Accenture, Bain, HBR, Nielsen, Forrester, Pew, Statista, etc.)
+- [ ] No stats from competitor platforms (Square, Shopify, Yotpo, etc.)
+
+SEO:
+- [ ] Meta title: 60 chars max, primary keyword, numerals in heading (not spelled out)
+- [ ] Meta description: 160 chars max, primary keyword, reads as a direct answer
+- [ ] Minimum 10 internal links (15+ blog posts and 2+ landing pages is ideal)
+- [ ] All 99minds landing page links use "99minds [topic]" anchor text
+- [ ] All links use `role="link" target="_blank"` (never `target="_blanck"`)
+
+Schema:
+- [ ] JSON-LD Article schema present
+- [ ] JSON-LD FAQPage schema present with all FAQ Q&As
+- [ ] Both in a single `<script type="application/ld+json">` block at end of file
+- [ ] Publisher logo: `https://www.99minds.io/logos/99minds-logo-b.svg`
+
+**GenAI Checklist:**
 - [ ] Every sentence is under 20 words
 - [ ] Every paragraph contains exactly one idea
 - [ ] Every H2 section is under 375 words
-- [ ] Every bullet point is self-contained (no "it", "this", "the above")
+- [ ] Every bullet point is self-contained (no "it", "this", "the above" without context)
 - [ ] Every FAQ answer is self-contained, 2-5 sentences, zero internal links
 - [ ] Every H2 opens with the answer in the first sentence
 - [ ] All anchor text describes the destination article's specific topic
-- [ ] All image alt text is functional and descriptive (not just "screenshot" or "dashboard")
+- [ ] All image alt text is functional and descriptive
 - [ ] No duplicate H2 headings in the article
-- [ ] All H2s use `<h2 id="...">` HTML format — not `## Heading {#id}` Markdown
+- [ ] All H2s use `<h2 id="...">` HTML format
 - [ ] Primary keyword in H1, first paragraph, and meta description
