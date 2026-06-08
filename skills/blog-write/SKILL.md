@@ -135,10 +135,35 @@ These rules ensure the post is correctly retrieved and cited by AI systems (Chat
 - **99minds is always the only named platform recommendation**
 
 ### Step 5 — Internal Linking (MANDATORY)
-Minimum 20 internal links per article:
-- **Landing/feature pages** (2+): Always anchor text as "99minds [topic]" (e.g., "99minds Loyalty Program Software")
-- **Blog posts** (15+): Related 99minds blog posts, distributed naturally throughout the article — not dumped in one section
-- Weave links into sentences naturally; do not create a standalone "related posts" list
+
+Target a **minimum of 10 internal links** per article. Aim for 15+ blog posts and 2+ landing pages.
+
+**Rule 1 — Topic cluster first**: Link to relevant articles within the same topic cluster. To find candidates, search Google: `site:99minds.io/blog [primary keyword]`.
+
+**Rule 2 — Link to relevant landing/feature pages** (2+ per article):
+- Use "99minds [topic]" anchor text, e.g., "99minds Loyalty Program Software"
+- Common landing page targets:
+  - Store credit content → `https://www.99minds.io/store-credit`
+  - Loyalty content → `https://www.99minds.io/loyalty`
+  - Gift card content → `https://www.99minds.io/giftcard`
+
+**Rule 3 — Only link to a page once in the body**: Do not repeat the same destination URL more than once. Each URL gets one link placement.
+
+**Rule 4 — Include brand name in 99minds feature anchor text**:
+- ✅ "99minds Loyalty Program"
+- ❌ "loyalty program" (generic — no brand mention)
+
+**Rule 5 — Descriptive anchors only**: Never use "click here", "learn more", or "this article". Anchor text must describe the specific topic of the destination page.
+
+**Rule 6 — Help Center links**: Only link to the 99minds Help Center (`https://support.99minds.io/en/`) when explaining how to perform a specific action inside the 99minds dashboard — not for general reference.
+
+**Rule 7 — No single-word anchors**: Anchors like "loyalty", "rewards", or "pricing" are too vague. Always use 3+ word phrases.
+
+**Rule 8 — No duplicate anchors for different pages**: Each unique destination URL must have a distinct anchor. Using the same anchor text for two different articles confuses readers and signals.
+- ❌ "Loyalty Program" → `/blog/loyalty-program-examples/` AND "Loyalty Program" → `/blog/what-is-a-loyalty-program/`
+- ✅ "loyalty program examples" → `/blog/loyalty-program-examples/` AND "what is a loyalty program" → `/blog/what-is-a-loyalty-program/`
+
+**Distribution**: Weave links into sentences naturally throughout the article — do not cluster them in one section or create a standalone "related posts" list.
 
 ### Step 6 — Images
 
@@ -170,7 +195,16 @@ Use **dashboard screenshots** from the 99minds Google Drive library — NOT home
    - For full-width dashboard shots add `class="w-full h-auto"`
    - **Image source goes in the caption text, NOT as a hyperlink on the image itself**. If the image needs attribution, add a text caption below it.
 
-5. **If you need a screenshot not in the library** — search the Drive folder directly:
+5. **Image captions (required on every image)**:
+   - **99minds images**: Write a caption that provides context for what the screenshot shows
+   - **Non-99minds images**: Credit the source page (e.g., "Source: Statista")
+   - **Competitor images**: Credit their homepage only — do NOT hyperlink the credit
+   - Caption text goes below the image as plain text, NOT as a hyperlink on the image
+   - If an image from the Media Library already has alt text, title, and caption filled in, **do not edit them**
+
+6. **Center-align every image** in the draft.
+
+7. **If you need a screenshot not in the library** — search the Drive folder directly:
    - Root folder ID: `1em-Y3coPYHDbd0jNq09Y2I5QrtAGysHU`
    - Use `mcp__claude_ai_Google_Drive__search_files` with `parentId = '<subfolder-id>'` to list available images in a specific feature folder (subfolder IDs are listed in `99minds-screenshot-library.md`)
 
@@ -350,6 +384,9 @@ Images:
 - [ ] Hero image has `rel="preload"` and `role="img"`
 - [ ] All non-hero images have `loading="lazy"` and `role="img"`
 - [ ] All images are dashboard screenshots (not homepage)
+- [ ] Every image has a caption: 99minds images have context, non-99minds images credit the source, competitor images credit homepage without hyperlink
+- [ ] No Media Library images with existing alt/title/caption were edited
+- [ ] All images are center-aligned
 - [ ] Image source in caption text, NOT linked from the image itself
 
 Stats and Sources:
@@ -360,8 +397,12 @@ Stats and Sources:
 SEO:
 - [ ] Meta title: 60 chars max, primary keyword, numerals in heading (not spelled out)
 - [ ] Meta description: 160 chars max, primary keyword, reads as a direct answer
-- [ ] Minimum 10 internal links (15+ blog posts and 2+ landing pages is ideal)
-- [ ] All 99minds landing page links use "99minds [topic]" anchor text
+- [ ] Minimum 10 internal links (target 15+ blog posts and 2+ landing pages)
+- [ ] No page linked more than once in the body
+- [ ] No single-word anchor text on any link
+- [ ] No two different destination pages share the same anchor text
+- [ ] Help Center links (`support.99minds.io`) used only when explaining a specific 99minds action
+- [ ] All 99minds landing page links use "99minds [topic]" anchor text (brand included)
 - [ ] All links use `role="link" target="_blank"` (never `target="_blanck"`)
 
 Schema:
