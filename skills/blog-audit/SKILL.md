@@ -34,8 +34,8 @@ For each blog post in the directory:
 - Total posts scanned
 - Average quality score
 - Posts needing immediate attention (score < 60)
-- Posts needing optimization (score 60-75)
-- Posts in good shape (score 75+)
+- Posts needing optimization (score 60–79)
+- Posts in good shape (score 80+)
 
 ### Prioritized Fix List
 Sorted by impact potential:
