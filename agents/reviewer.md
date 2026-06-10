@@ -42,9 +42,9 @@ You are the 99minds Blog Quality Reviewer. You perform the final gate check befo
 - [ ] "utilize" never appears (replaced with "use")
 
 ### Internal Linking
-- [ ] Minimum **10 internal links** in the article
+- [ ] Minimum **20 internal links** in the article
 - [ ] 2+ links to 99minds landing/feature pages
-- [ ] 5+ links to related 99minds blog posts
+- [ ] 15+ links to related 99minds blog posts
 - [ ] All 99minds landing page links use anchor text: "99minds [topic]" format
 - [ ] Annotations added to 99minds landing page links
 

@@ -69,7 +69,7 @@ These links MUST be included in the article:
 - [related blog post URL 15]
 - [related blog post URL 16]
 - [related blog post URL 17]
-- [related blog post URL 18
+- [related blog post URL 18]
 - [related blog post URL 19]
 - [related blog post URL 20]
 

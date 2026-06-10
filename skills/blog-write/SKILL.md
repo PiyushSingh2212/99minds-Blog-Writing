@@ -183,7 +183,7 @@ Use **dashboard screenshots** from the 99minds Google Drive library — NOT home
    ```powershell
    $base64 = "<base64 from download tool>"
    $bytes = [Convert]::FromBase64String($base64)
-   [IO.File]::WriteAllBytes("C:\Users\Piyush Singh\Desktop\99minds-website\www.99minds.io-astro\public\assets\blog\<filename>.png", $bytes)
+   [IO.File]::WriteAllBytes("$env:WEBSITE_ROOT\public\assets\blog\<filename>.png", $bytes)
    ```
 
 4. **Embed in blog HTML**:
@@ -232,7 +232,7 @@ keywords: ["Keyword"]
   <a role="link" href="#What-is-a-Loyalty-Program-App?" rel="noreferrer">What is a Loyalty Program App?</a>
   </li>
   <li class="hover:bg-gray-100 lg:mt-4">
-<a rolw="link" href="#Why-eCommerce-Merchants-Need-Loyalty-Apps?" rel="noreferrer">Why eCommerce Merchants Need Loyalty Apps?</a>
+<a role="link" href="#Why-eCommerce-Merchants-Need-Loyalty-Apps?" rel="noreferrer">Why eCommerce Merchants Need Loyalty Apps?</a>
 </li>
   <li class="hover:bg-gray-100 lg:mt-4">
   <a role="link" href="#what-is-x" rel="noreferrer">What is x?</a>
@@ -397,7 +397,7 @@ Stats and Sources:
 SEO:
 - [ ] Meta title: 60 chars max, primary keyword, numerals in heading (not spelled out)
 - [ ] Meta description: 160 chars max, primary keyword, reads as a direct answer
-- [ ] Minimum 10 internal links (target 15+ blog posts and 2+ landing pages)
+- [ ] Minimum 20 internal links (2+ landing/feature pages + 15+ related blog posts)
 - [ ] No page linked more than once in the body
 - [ ] No single-word anchor text on any link
 - [ ] No two different destination pages share the same anchor text

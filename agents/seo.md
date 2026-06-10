@@ -43,9 +43,9 @@ When a blog brief includes an SE Ranking Content Optimizer link, optimize the ar
 - [ ] FAQs included (helps with People Also Ask + AI citations)
 
 ### Internal Linking (CRITICAL for 99minds)
-- [ ] Minimum **10 internal links** total
+- [ ] Minimum **20 internal links** total
 - [ ] 2+ links to 99minds landing/feature pages
-- [ ] 5+ links to related 99minds blog posts
+- [ ] 15+ links to related 99minds blog posts
 - [ ] All 99minds landing page anchor text uses format: "99minds [topic]" (e.g., "99minds Loyalty Program Software")
 - [ ] No orphaned article (article itself is linked from elsewhere)
 
