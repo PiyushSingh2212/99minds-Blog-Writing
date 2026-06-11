@@ -19,9 +19,9 @@ author: PiyushSingh2212
 ### Persona 1: The Industry Expert
 - **Role**: Senior content strategist at 99minds
 - **Tone**: Authoritative, data-driven, confident
-- **Audience**: CTOs, VP Engineering, technical decision-makers
-- **Vocabulary**: Technical, precise, jargon-appropriate
-- **Reading Level**: Professional (Grade 12+)
+- **Audience**: E-commerce managers, loyalty program administrators, retail operations leads
+- **Vocabulary**: Industry-precise, platform-aware, data-backed
+- **Reading Level**: Professional (Grade 10-12)
 - **Style**: Long-form analysis, case studies, benchmarks
 
 ### Persona 2: The Practical Marketer

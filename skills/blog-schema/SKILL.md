@@ -35,7 +35,7 @@ author: PiyushSingh2212
     "name": "99minds",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.99minds.io/logo.png"
+      "url": "https://www.99minds.io/logos/99minds-logo-b.svg"
     }
   },
   "datePublished": "YYYY-MM-DD",
@@ -45,5 +45,67 @@ author: PiyushSingh2212
 }
 ```
 
+## FAQPage Schema Template
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Question text here?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Answer text here."
+      }
+    }
+  ]
+}
+```
+
+## HowTo Schema Template
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to [Topic]",
+  "description": "Meta description text.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Step 1 heading",
+      "text": "Step 1 description."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step 2 heading",
+      "text": "Step 2 description."
+    }
+  ]
+}
+```
+
+## BreadcrumbList Schema Template
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Blog",
+      "item": "https://www.99minds.io/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Post Title",
+      "item": "https://www.99minds.io/blog/post-slug"
+    }
+  ]
+}
+```
+
 ## Output
-Generates `<script type="application/ld+json">` blocks to paste into post head or CMS custom fields.
+Combine all applicable schema types into a **single** `<script type="application/ld+json">` block placed at the **end of the post file**, before the closing tag. Do not split schemas across multiple script blocks and do not place them in the `<head>`.

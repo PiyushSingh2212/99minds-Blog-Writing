@@ -100,7 +100,7 @@ Check the post type (listicle vs. how-to/guide) and enforce the correct format.
 
 ### Step 5 — Internal Links Audit and Fix
 
-Minimum 10 internal links per article (target 15+ blog posts and 2+ landing pages):
+Minimum 20 internal links per article (2+ landing/feature pages + 15+ blog posts):
 
 **Rule 1**: Link to relevant topic-cluster articles. Find candidates by searching `site:99minds.io/blog [primary keyword]`.
 
@@ -206,7 +206,7 @@ Re-run `/blog analyze` on the rewritten post. The rewrite must either:
 **SEO:**
 - [ ] Meta title: 60 chars max, primary keyword, numerals in heading
 - [ ] Meta description: 160 chars max, primary keyword, reads as a direct answer
-- [ ] Minimum 10 internal links (target 15+ blog posts and 2+ landing pages)
+- [ ] Minimum 20 internal links (2+ landing/feature pages + 15+ blog posts)
 - [ ] No page linked more than once in the body
 - [ ] No single-word anchor text on any link
 - [ ] No two different destination pages share the same anchor text

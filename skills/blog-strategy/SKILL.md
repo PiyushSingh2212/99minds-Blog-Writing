@@ -24,7 +24,7 @@ author: PiyushSingh2212
 2. **Audience Personas** — Who reads content in this niche (3 personas)
 3. **Keyword Clusters** — 5 topic clusters with 10 keyword ideas each
 4. **Pillar Page Plan** — 3-5 cornerstone articles that anchor content clusters
-5. **Competitive Gap Analysis** — Where competitors are weak
+5. **Competitive Gap Analysis** — Where competitors are weak (internal use only — never surface competitor names in published content; use generic language like "other platforms" in any public-facing output)
 6. **Content Differentiation** — 99minds unique angles and data assets
 7. **Quick Wins** — Low-competition, high-intent topics to target first
 8. **6-Month Roadmap** — Prioritized content plan

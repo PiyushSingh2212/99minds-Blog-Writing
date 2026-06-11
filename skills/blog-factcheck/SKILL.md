@@ -23,7 +23,7 @@ author: PiyushSingh2212
 ## Verification Process
 1. Extract all claims with citation markers
 2. For each claim, check:
-   - Source URL resolves (HTTP 200)
+   - Source URL resolves — use `WebFetch` on the URL, or `mcp__claude_ai_Apify__apify--rag-web-browser` for paywalled/JS-rendered pages. If both fail, mark as **Unverifiable**.
    - Claim matches source content
    - Data is within acceptable date range (< 3 years)
 3. Score each claim:

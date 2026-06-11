@@ -13,7 +13,7 @@ author: PiyushSingh2212
 ```
 
 ## Process
-1. Analyze top 5 SERP results for the topic
+1. Analyze top 15-20 SERP results for the topic — use `WebSearch` to find them, then `WebFetch` each URL to read the content. For deeper analysis use `mcp__claude_ai_SE_Ranking__DATA_getSerpResults` if SE Ranking is connected.
 2. Extract common H2/H3 patterns
 3. Identify unique angles not covered by competitors
 4. Map keywords to each section
@@ -23,7 +23,7 @@ author: PiyushSingh2212
 ## Output Format
 ```markdown
 # [H1 Title — Primary Keyword]
-**Meta:** [155-char meta description]
+**Meta:** [160-char max meta description]
 **Intent:** [Informational/Commercial/Transactional]
 **Target Words:** [N]
 

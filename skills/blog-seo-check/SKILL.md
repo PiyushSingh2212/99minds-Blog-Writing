@@ -16,8 +16,8 @@ author: PiyushSingh2212
 
 ### Title & Meta
 - [ ] H1 title contains primary keyword (within first 60 chars)
-- [ ] Title length: 50-60 characters
-- [ ] Meta description: 140-155 characters
+- [ ] Title length: 60 characters max
+- [ ] Meta description: 120-160 characters
 - [ ] Meta description includes keyword + action phrase
 
 ### URL & Structure
@@ -41,7 +41,7 @@ author: PiyushSingh2212
 - [ ] No broken internal links
 
 ### Linking
-- [ ] 2-3 internal links to related posts
+- [ ] 20+ internal links (2+ landing/feature pages + 15+ related blog posts)
 - [ ] 1-2 external links to authoritative sources
 - [ ] No orphaned page (has at least 1 page linking to it)
 

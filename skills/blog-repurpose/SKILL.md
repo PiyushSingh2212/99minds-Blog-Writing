@@ -16,6 +16,14 @@ author: PiyushSingh2212
 ## 99minds Social Platforms
 LinkedIn · Twitter/X · Instagram · Facebook
 
+## Funnel-Stage Adjustments
+
+Before writing, identify the post's funnel stage and adjust all platform content accordingly:
+
+- **TOFU**: Focus on the insight/tip, not the product. Mention 99minds only as a brief CTA at the end (e.g., "Build yours with 99minds →"). Keep educational and shareable.
+- **MOFU**: Highlight the problem-solution angle. Name 99minds features naturally as examples. CTA points to a feature page or case study.
+- **BOFU**: Lead with the value proposition. Name 99minds directly. CTA is a direct trial/demo link.
+
 ## Voice Rules for All Platforms
 - Conversational, jargon-free, fun
 - Use contractions (it's, you'll, we're)
